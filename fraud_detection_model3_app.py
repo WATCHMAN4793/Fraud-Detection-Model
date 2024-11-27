@@ -4,7 +4,7 @@ import streamlit as st
 from sklearn.preprocessing import LabelEncoder
 
 # Load the saved model
-loaded_model = pickle.load(open("fraud_detection_model3.sav", "rb"))
+loaded_model = pickle.load(open("fraud_detection3_model.sav", "rb"))
 
 # LabelEncoder for the 'type' column (assuming it's categorical like 'CASH_IN', 'CASH_OUT', etc.)
 le = LabelEncoder()
